@@ -1,0 +1,46 @@
+<resources>
+    <string-array name="array_technologhy">
+        <item>Android</item>
+        <item>Java</item>
+        <item>Python</item>
+        <item>Php</item>
+        <item>MySql</item>
+        <item>Javascript</item>
+        <item>Mac</item>
+        <item>Linux</item>
+        <item>Arch</item>
+    </string-array>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="this_is_the_first_fragment">This is the First Fragment</string>
+    <string name="fragments">Fragments!</string>
+    <string name="second_fragment">Second Fragment</string>
+    <string name="first_fragment">First Fragment</string>
+    <string name="app_name">Assignment Demo</string>
+    <string name="reminder">Enter Name</string>
+    <string name="done">done</string>
+
+    <string name="para1">You can find area of rectangle, cirlcle and triangle using this application.</string>
+    <string name="triangle">Triangle</string>
+    <string name="answer_load_here">Answer Load here</string>
+    <string name="enter_base">Enter Base</string>
+    <string name="menu">Menu</string>
+    <string name="clear">Clear</string>
+    <string name="area">Area</string>
+    <string name="enter_height">Enter Height</string>
+    <string name="todo">TODO</string>
+    <string name="clear2">Clear</string>
+    <string name="enter_height1">Enter Height</string>
+    <string name="area1">Area</string>
+    <string name="rectangle">Rectangle</string>
+    <string name="answer_load_here1">Answer Load here</string>
+    <string name="enter_width">Enter Width</string>
+    <string name="menu1">Menu</string>
+    <string name="todo1">TODO</string>
+    <string name="circle">Circle</string>
+    <string name="clear3">Clear</string>
+    <string name="answer_load_here2">Answer Load here</string>
+    <string name="area12">Area</string>
+    <string name="menu21">Menu</string>
+    <string name="enter_radius1">Enter Radius</string>
+    <string name="todo12">TODO</string>
+</resources>

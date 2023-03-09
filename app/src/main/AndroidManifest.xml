@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Material3.Light.NoActionBar"
+        tools:targetApi="31">
+        <activity
+            android:name=".Activity.UserInteract"
+            android:exported="false" />
+        <activity
+            android:name=".ListViewGroup.ListObj"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.ListViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Intent.Level3"
+            android:exported="false" />
+        <activity
+            android:name=".Intent.Level2"
+            android:exported="false" />
+        <activity
+            android:name=".Intent.Level1"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.FragmentView"
+            android:exported="false" />
+        <activity
+            android:name=".RelativeLayout.triangle"
+            android:exported="false" />
+        <activity
+            android:name=".RelativeLayout.rectangle"
+            android:exported="false" />
+        <activity
+            android:name=".RelativeLayout.circle"
+            android:exported="false" />
+        <activity
+            android:name=".FragmentView.SecFrag$FragmentView"
+            android:exported="false" />
+        <activity
+            android:name=".FragmentView.SecFrag"
+            android:exported="false" />
+        <activity
+            android:name=".FragmentView.firstFrag"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.RelativeLayoutView"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.IntentView"
+            android:exported="false" />
+        <activity
+            android:name=".ListViewGroup.viewGroup"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

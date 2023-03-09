@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RelativeLayout.rectangle">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="33dp"
+        android:padding="30sp">
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="@string/rectangle"
+            android:textAlignment="center"
+            android:textSize="34sp" />
+
+        <ImageView
+            android:id="@+id/imgv1"
+            android:layout_width="match_parent"
+            android:layout_height="177dp"
+            app:srcCompat="@mipmap/rect"
+            android:layout_below="@+id/tv1"
+            android:contentDescription="@string/todo1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/enter_height1"
+            android:id="@+id/tv2"
+            android:paddingTop="15sp"
+            android:layout_below="@id/imgv1"/>
+
+        <EditText
+            android:id="@+id/height"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imgv1"
+            android:layout_toEndOf="@id/tv2"
+            android:autofillHints=""
+            android:hint="|"
+            android:inputType="number"
+            android:minHeight="48dp"
+            android:textColorHint="#546E7A"
+            tools:ignore="DuplicateSpeakableTextCheck,DuplicateSpeakableTextCheck" />
+
+
+        <TextView
+            android:layout_below="@id/height"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/enter_width"
+            android:paddingTop="15sp"
+            android:id="@+id/tv3"/>
+
+        <EditText
+            android:id="@+id/width"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/height"
+            android:layout_toEndOf="@id/tv3"
+            android:autofillHints=""
+            android:hint="|"
+            android:inputType="number"
+            android:minHeight="48dp"
+            android:textColorHint="#546E7A" />
+
+
+        <Button
+            android:id="@+id/area"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/width"
+            android:text="@string/area1" />
+
+
+        <TextView
+            android:id="@+id/answer"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/width"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="16dp"
+            android:layout_toEndOf="@id/area"
+            android:text="@string/answer_load_here1" />
+
+        <Button
+            android:id="@+id/cleanbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/answer"
+            android:layout_margin="40dp"
+            android:layout_alignParentStart="true"
+            android:text="@string/clear2" />
+
+        <Button
+            android:layout_margin="40dp"
+            android:id="@+id/menubtn"
+            android:layout_below="@id/answer"
+            android:layout_alignParentEnd="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/menu1" />
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

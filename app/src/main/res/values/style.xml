@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Button.green" parent="ThemeOverlay.AppCompat">
+        <item name="colorAccent">@android:color/holo_green_light</item>
+    </style>
+
+</resources>

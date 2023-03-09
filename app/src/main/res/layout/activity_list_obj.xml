@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ListViewGroup.ListObj">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/relative"
+        android:paddingTop="140sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="List View"
+            android:textAlignment="center"
+
+            android:textSize="33dp" />
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv1"
+            android:padding="23dp"
+            android:text="This represent types of list views"
+            android:textSize="23dp" />
+
+        <Button
+            android:id="@+id/aadapter"
+            android:layout_width="600px"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv2"
+            android:layout_centerHorizontal="true"
+            android:text="Array Adapter" />
+
+        <Button
+            android:id="@+id/badapter"
+            android:layout_width="600px"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/aadapter"
+            android:layout_centerHorizontal="true"
+            android:text="Base Adapter" />
+
+
+        <Button
+            android:id="@+id/exit"
+            android:layout_width="600px"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/badapter"
+            android:layout_centerHorizontal="true"
+            android:text="Back To Home"
+            android:textColor="@color/black"
+            android:theme="@style/Platform.MaterialComponents.Light" />
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
+

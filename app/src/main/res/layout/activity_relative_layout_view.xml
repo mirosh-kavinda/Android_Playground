@@ -1,0 +1,64 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.RelativeLayoutView">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/relative"
+        >
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Area Calculator"
+            android:textAlignment="center"
+            android:layout_alignParentTop="true"
+            android:textSize="33dp" />
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_below="@id/tv1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="23dp"
+            android:text="@string/para1"
+            android:textSize="23dp" />
+
+        <Button
+            android:id="@+id/rect"
+            android:layout_below="@id/tv2"
+            android:layout_centerHorizontal="true"
+            android:layout_width="600px"
+            android:layout_height="wrap_content"
+            android:text="Rectangle"
+            />
+
+        <Button
+            android:id="@+id/circle"
+            android:layout_width="600px"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/rect"
+            android:layout_height="wrap_content"
+            android:text="Circle" />
+
+        <Button
+            android:id="@+id/triangle"
+            android:layout_width="600px"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/circle"
+            android:layout_height="wrap_content"
+            android:text="Triangle" />
+
+        <Button
+            android:id="@+id/exit"
+            android:layout_width="600px"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/triangle"
+            android:layout_height="wrap_content"
+            android:text="Back To Home"
+            android:textColor="@color/black"
+            android:theme="@style/Platform.MaterialComponents.Light"/>
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
